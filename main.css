@@ -83,7 +83,7 @@ box-shadow: 5px 5px 15px -3px #000000;
 #course_card {
     display: grid;
     gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .course_p {
@@ -124,4 +124,46 @@ footer p {
     border: solid 1px rgb(167, 167, 167);
     text-align: center;
     padding: 15px;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        max-width: 400px;
+    }
+    ul {
+            grid-template-columns: 1fr;
+
+    }
+    #first {
+        grid-template-columns: 1fr;
+    }
+    #benefit_cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    #card_community {
+        grid-template-columns: 1fr 1fr;
+    }
+    #course_card {
+        grid-template-columns: 1fr;
+    }
+    #testimontal_cards {
+        grid-template-columns: 1fr;
+    }
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+@media screen and (max-width:450px) {
+    main {
+        max-width: 300px;
+    }
+    #benefit_cards {
+        grid-template-columns: 1fr;
+    }
+    #card_community {
+        grid-template-columns: 1fr;
+    }
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
 }
