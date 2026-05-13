@@ -49,7 +49,7 @@ box-shadow: 5px 5px 15px -3px #000000;
     gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.card_p {
+.card {
     background-color: rgb(255, 255, 255);
     border: solid 1px rgb(189, 189, 189);
     text-align: center;
