@@ -1,3 +1,4 @@
+
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -43,37 +44,12 @@ box-shadow: 5px 5px 15px -3px #000000;
     padding: 10px;
 }
 
-#benefit_cards {
-    
-    display: grid;
-    gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.card {
-    background-color: rgb(255, 255, 255);
-    border: solid 1px rgb(189, 189, 189);
-    text-align: center;
-    padding: 25px;
-
-}
 
 #community {
     border: dashed 1px black;
     padding: 10px;
 }
 
-#card_community {
-    display: grid;
-    gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.community_p {
-   
-    border: solid 1px rgb(167, 167, 167);
-    text-align: center;
-    padding: 15px;
-}
 
 #featured {
     border: dashed 1px black;
@@ -86,12 +62,6 @@ box-shadow: 5px 5px 15px -3px #000000;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.course_p {
-   
-    border: solid 1px rgb(167, 167, 167);
-    text-align: center;
-    padding: 15px;
-}
 
 #testiomntals {
     border: dashed 1px black;
@@ -140,7 +110,7 @@ footer p {
     #benefit_cards {
         grid-template-columns: 1fr 1fr;
     }
-    #card_community {
+    #community_cards {
         grid-template-columns: 1fr 1fr;
     }
     #course_card {
@@ -152,6 +122,7 @@ footer p {
     footer {
         grid-template-columns: 1fr 1fr;
     }
+}
 @media screen and (max-width:450px) {
     main {
         max-width: 300px;
@@ -159,11 +130,10 @@ footer p {
     #benefit_cards {
         grid-template-columns: 1fr;
     }
-    #card_community {
+    #community_cards {
         grid-template-columns: 1fr;
     }
     footer {
         grid-template-columns: 1fr;
     }
-}
 }

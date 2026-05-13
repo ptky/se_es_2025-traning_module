@@ -1,0 +1,17 @@
+#benefit_cards {
+    
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(189, 189, 189);
+    text-align: center;
+    padding: 25px;
+
+}
+
+.card_img {
+    max-width: 100px;
+}
