@@ -10,6 +10,9 @@
     margin: 10px;
     text-align: center;
     margin: auto;
+    height: 100%;
+    
+
 
 }
 
@@ -54,4 +57,9 @@
 
 #csillag_grid p {
     margin: 0;
+}
+
+#course_card_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

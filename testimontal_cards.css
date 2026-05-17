@@ -1,0 +1,35 @@
+#testiomntals {
+    border: dashed 1px black;
+    padding: 10px;
+}
+
+#testimontal_cards {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.testimontal {
+     box-shadow: -5px 1px 5px 0px rgba(89,5,255,0.75);
+     -webkit-box-shadow: -5px 1px 5px 0px rgba(89,5,255,0.75);
+     -moz-box-shadow: -5px 1px 5px 0px rgba(89,5,255,0.75);
+}
+.testimontal_text {
+   
+    border: solid 1px rgb(167, 167, 167);
+    text-align: center;
+    padding: 25px;
+}
+
+.grey_text  {
+     color: grey;
+     font-weight: 500;
+}
+
+.dolt {
+     color: grey;
+     font-weight: 400;
+     font-style: italic;
+}

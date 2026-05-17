@@ -38,14 +38,20 @@ nav img {
     -webkit-box-shadow: 5px -3px 12px -6px #000000; 
 box-shadow: 5px -3px 12px -6px #000000;
     padding: 10px;
-    background-color: rgb(238, 235, 232);
+    background-color: rgb(248, 247, 245);
 }
+
+
 
 #image_headline {
     -webkit-box-shadow: 5px 5px 15px -3px #000000; 
-box-shadow: 5px 5px 15px -3px #000000;
+    box-shadow: 5px 5px 15px -3px #000000;
     text-align: center;
     padding: 10px;
+    
+}
+#fokep {
+    width: 100%;
 }
 
 
@@ -66,24 +72,6 @@ box-shadow: 5px 5px 15px -3px #000000;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-#testiomntals {
-    border: dashed 1px black;
-    padding: 10px;
-}
-
-#testimontal_cards {
-    display: grid;
-    gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.testimontal_p {
-   
-    border: solid 1px rgb(167, 167, 167);
-    text-align: center;
-    padding: 15px;
-}
 
 #information {
     text-align: center;
