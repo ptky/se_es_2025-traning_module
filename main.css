@@ -19,6 +19,10 @@ ul {
     text-align: center;
 }
 
+nav img {
+    max-width: 200px;
+}
+
 #first {
     
     padding: 10px;
@@ -96,10 +100,7 @@ footer p {
     padding: 15px;
 }
 
-@media screen and (max-width:600px) {
-    main {
-        max-width: 400px;
-    }
+@media screen and (max-width:768px) {
     ul {
             grid-template-columns: 1fr;
 
@@ -123,10 +124,7 @@ footer p {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width:450px) {
-    main {
-        max-width: 300px;
-    }
+@media screen and (max-width:360px) {
     #benefit_cards {
         grid-template-columns: 1fr;
     }

@@ -1,3 +1,57 @@
 .featured_card img {
-    max-width: 200px;
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.featured_card  {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+.featured_card button {
+ margin-top: 20px;
+ border: none;
+ color: #fff;
+ background-image: linear-gradient(30deg, #1bbaf8, #0fc57f);
+ border-radius: 20px;
+ background-size: 100% auto;
+ font-family: inherit;
+ font-size: 17px;
+ padding: 0.6em 1.5em;
+}
+
+.featured card button:hover {
+ background-position: right center;
+ background-size: 200% auto;
+}
+
+.csillag {
+    fill: rgb(255, 241, 44);    
+    width: 20px;
+}
+
+#csillagok p {
+    margin: 0;
+}
+#csillagok {
+    display: flex;
+    margin-bottom: 0;
+}
+
+
+#csillag_grid {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+#csillag_grid p {
+    margin: 0;
 }
