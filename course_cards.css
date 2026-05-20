@@ -4,6 +4,11 @@
     border-top-right-radius: 5%;
 }
 
+.card_kep {
+    height: 150px;
+    overflow: hidden;
+}
+
 .featured_card  {
     background-color: rgb(255, 255, 255);
     border-radius: 5%;
@@ -11,12 +16,20 @@
     text-align: center;
     margin: auto;
     height: 100%;
-    
+    display: grid;
+    grid-template-rows: 150px auto auto 50px 75px;
 
 
 }
 
+.featured_card p {
+    white-space: nowrap;
+}
 
+
+.course_cim {
+    min-width: 100px;
+}
 
 .featured_card button {
  margin-top: 20px;
@@ -40,26 +53,68 @@
     width: 20px;
 }
 
-#csillagok p {
+.csillagok p {
     margin: 0;
 }
-#csillagok {
+.csillagok {
     display: flex;
     margin-bottom: 0;
 }
 
 
-#csillag_grid {
+.csillag_grid {
     display: flex;
     gap: 12px;
     justify-content: center;
 }
 
-#csillag_grid p {
+.csillag_grid p {
     margin: 0;
 }
 
 #course_card_grid {
     display: grid;
+    gap: 75px;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#view_button,.kezdolap_gomb {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#view_button:hover,.kezdolap_gomb:hover {
+  background-color: rgb(249,250,251);
+}
+
+#view_button:focus,.kezdolap_gomb:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+#view_button:focus-visible,.kezdolap_gomb:focus-visible {
+  box-shadow: none;
+}
+
+
+#button_alul {
+    margin-top: 50px;
+    text-align: center;
 }
