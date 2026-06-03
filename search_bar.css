@@ -2,7 +2,8 @@
   width: 100%;
   max-width: 220px;
   height: 45px;
-  padding: 4  px;
+  margin: 1vw;
+  padding: 6px;
   border-radius: 12px;
   border: 1.5px solid lightgrey;
   outline: none;
@@ -21,4 +22,12 @@
 
 .input:focus {
   border: 2px solid grey;
+}
+
+#search {
+  margin-top: 2vw;
+}
+
+#osszes_kurzus {
+  margin: 1vw;
 }
