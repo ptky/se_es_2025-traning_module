@@ -12,13 +12,21 @@
     text-align: center;
     margin: auto;
     height: 100%;
+    display: grid;
 
+
+}
+
+#expert_mentors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 #mentors_section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .leiras_grid {
